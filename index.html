@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/index.js"></script>
+    <title>Salary Calculator</title>
+</head>
+
+<body>
+    <div class="total">
+        <div>
+            <nav id="navbar">
+                <div class="contain">
+                    <h1><img src="/newhustle.jpg" alt="sidehustle" class="image"></h1>
+                </div>
+                <div>
+                    <ul>
+                        <li><a class="current" href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+   
+        <div class="container">
+           <div>
+              <h1>
+                Calculate your Earnings
+              </h1>
+           </div>
+           <form onsubmit= "return false">
+                <input id = 'hoursInput' type = "text" placeholder = "Normal hours you worked this Month"/>
+                <input id = "extraInput" type = "text" placeholder = "Extra hours"/>
+                <input onclick= "onSubmit()"  type = "submit" class="submit"/>
+           </form>
+           <div class="result">
+            <h1> </h1>
+           </div>
+        </div>
+
+    </div>
+   
+</body>
+</html>

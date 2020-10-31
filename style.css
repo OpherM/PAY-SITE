@@ -1,0 +1,74 @@
+.container{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+    background-color: pink;
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.image {
+    width: 250px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+input{
+    padding: 7px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type = "submit"]{
+    background: rgb(29, 29, 102);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+#navbar {
+    display: flex;
+    background: blueviolet;
+    color: white;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    color: white;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background: pink;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.total {
+    height: 100vh;
+}
